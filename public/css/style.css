@@ -1,8 +1,8 @@
 /* theme */
 
 :root {
-    --primary: #12CBC4;
-    --primary-light: #e7f9f9;
+    --primary: #B92B27;
+    --primary-light: #bb5956;
     --accent: #0652dd;
     --warning: #ea2027;
     --success: #009432;
@@ -125,6 +125,9 @@ a {
 .mr-50 {
     margin-right: 50px;
 }
+.mb-20{
+    margin-bottom: 20px;
+}
 
 /* Paddings */
 .p-5 {
@@ -134,6 +137,7 @@ a {
 .p-10 {
     padding: 10px;
 }
+
 
 .p-20 {
     padding: 20px;
@@ -157,6 +161,9 @@ ul {
 
 .content {
     max-width: var(--max-width);
+}
+.app-content{
+    background-color:var(--gray-light);
 }
 
 .btn {
@@ -185,6 +192,14 @@ ul {
     border: 1px solid var(--primary);
     color: var(--primary);
     background-color: var(--color-primary);
+}
+
+.block{
+    padding: 15px;
+    border-radius: var(--border-radius);
+    background-color: white;
+    box-shadow: var(--box-shadow)
+
 }
 
 /* HEADER */
@@ -237,8 +252,10 @@ header {
 }
 
 .active{
-    border-left: 5px solid  var(--primary) ;
+    border-left: 5px solid var(--primary) ;
     border-color: var(--primary-light) ;
+    font-weight: 700;
+    /* color: white; */
 }
 
 /* FOOTER */
